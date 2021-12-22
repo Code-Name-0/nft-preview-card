@@ -1,0 +1,65 @@
+* {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+
+  --main-bg: hsl(217, 54%, 11%); /*(main BG)*/
+  --card-bg: hsl(216, 50%, 16%); /* (card BG)*/
+  --line: hsl(215, 32%, 27%); /* (line)*/
+  --White: hsl(0, 0%, 100%);
+}
+
+html {
+  background-color: var(--main-bg);
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  font-family: "outfit";
+}
+
+.main-card {
+  background-color: var;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 288px;
+  padding: 30px;
+  height: 500px;
+  background-color: var(--card-bg);
+  border-radius: 20px;
+}
+
+.main-card .card-head {
+  height: 60%;
+  border-radius: 20px;
+}
+
+.main-card .card-head img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.container {
+  border: solid black 3px;
+}
+
+.main-card .card-body .infos .title {
+  color: var(--White);
+  font-weight: 600;
+  margin: 10px 0 10px 0;
+}
+
+.main-card .card-body .infos .description {
+  color: var(--Soft-blue);
+  font-size: 16px;
+  margin: 10px 0 10px 0;
+}
+
+.main-card .card-body .currency {
+  display: flex;
+}
