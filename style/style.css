@@ -22,7 +22,7 @@ body {
 }
 
 .main-card {
-  background-color: var;
+  background-color: var(--card-bg);
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -34,7 +34,7 @@ body {
 }
 
 .main-card .card-head {
-  height: 60%;
+  height: 50%;
   border-radius: 20px;
 }
 
@@ -44,22 +44,58 @@ body {
   border-radius: 20px;
 }
 
-.container {
-  border: solid black 3px;
+.main-card .card-body .container .infos {
+  margin: 30px 0;
 }
 
 .main-card .card-body .infos .title {
   color: var(--White);
   font-weight: 600;
-  margin: 10px 0 10px 0;
+  margin-bottom: 30px;
 }
 
-.main-card .card-body .infos .description {
+.main-card .card-body .container .infos .description {
   color: var(--Soft-blue);
   font-size: 16px;
   margin: 10px 0 10px 0;
 }
 
-.main-card .card-body .currency {
+.main-card .card-body .container .currency {
   display: flex;
+  justify-content: space-between;
+  margin: 20px 0 20px 0;
+}
+
+.main-card .card-body .container .currency .price {
+  color: var(--Cyan);
+}
+
+.main-card .card-body .container .currency .time {
+  color: var(--Soft-blue);
+}
+
+.main-card .container hr {
+  border: solid 0.5px var(--line);
+}
+
+.main-card .container .author {
+  display: flex;
+  align-items: center;
+}
+
+.main-card .container .author img {
+  height: 50px;
+  border: solid white;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.main-card .container .author .info {
+  margin: 10px;
+  color: var(--Soft-blue);
+}
+
+.main-card .container .author .info span {
+  color: white;
+  font-weight: 700;
 }
