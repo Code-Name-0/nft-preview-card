@@ -15,8 +15,7 @@ html {
 
 body {
   height: 100%;
-  display: flex;
-  flex-direction: row;
+
   font-size: 18px;
   font-family: "outfit";
 }
@@ -26,7 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin: auto;
+  margin: 150px auto;
   width: 288px;
   padding: 30px 30px 5px 30px;
   height: 600px;
@@ -137,4 +136,13 @@ body {
 .main-card .container .author .info a:hover {
   color: var(--Cyan);
   cursor: pointer;
+}
+
+.attribution {
+  color: var(--Cyan);
+}
+
+.attribution a {
+  color: white;
+  text-decoration: none;
 }
