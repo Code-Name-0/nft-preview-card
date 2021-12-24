@@ -74,15 +74,15 @@ body {
   margin: 30px 0;
 }
 
-.main-card .card-body .infos .title a {
+.main-card .card-body .infos .title h1 a {
   color: var(--White);
   font-weight: 600;
   margin-bottom: 30px;
-  color: white;
   text-decoration: none;
+  font-size: 0.8em;
 }
 
-.main-card .card-body .infos .title a:hover {
+.main-card .card-body .infos .title h1 a:hover {
   color: var(--Cyan);
 }
 
